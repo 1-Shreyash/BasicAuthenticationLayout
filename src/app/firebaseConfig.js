@@ -10,14 +10,7 @@ const firebaseConfig = {
   storageBucket: `${process.env.NEXT_PUBLIC_STORAGE_BUCKET}`,
   messagingSenderId: `${process.env.NEXT_PUBLIC_MESSAGING_SENDER_ID}`,
   appId: `${process.env.NEXT_PUBLIC_APP_ID}`,
-  measurementId: `${process.env.NEXT_PUBLIC_MEASUREMENT_ID}`,
-  // apiKey: "AIzaSyC2Odj7QSWNg2pGo2rybh5yh1OUcwmPPKg",
-  // authDomain: "projectreport-9ef09.firebaseapp.com",
-  // projectId: "projectreport-9ef09",
-  // storageBucket:"projectreport-9ef09.appspot.com",
-  // messagingSenderId: "470570171934",
-  // appId: "1:470570171934:web:755302013f3f6e67b9b80f",
-  // measurementId: "G-SCKPB3KMWT",
+  measurementId: `${process.env.NEXT_PUBLIC_MEASUREMENT_ID}`
 };
 
 // Initialize Firebase
